@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issue - Unable to Access Account",
+    "description": "Customer reports being unable to log in despite using the correct credentials.",
+    "customer": "Michael Brown",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-12"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed - Card Declined",
+    "description": "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
+    "customer": "Sarah Johnson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-16"
+  },
+  {
+    "id": 1003,
+    "title": "Checkout Button Not Working",
+    "description": "User reports that the checkout button is unresponsive on mobile devices.",
+    "customer": "David Smith",
+    "priority": "HIGH PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2024-01-18"
+  },
+  {
+    "id": 1004,
+    "title": "Feature Request - Dark Mode",
+    "description": "Customer suggests adding a dark mode option for better usability at night.",
+    "customer": "Emily Davis",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": 1005,
+    "title": "Refund Request - Duplicate Charge",
+    "description": "Customer claims they were charged twice for the same order.",
+    "customer": "James Wilson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-22"
+  },
+  {
+    "id": 1006,
+    "title": "Slow Performance - Loading",
+    "description": "Customer reports that the dashboard takes over 30 seconds to load.",
+    "customer": "Sophia Martinez",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2024-01-25"
+  },
+  {
+    "id": 1007,
+    "title": "Account Locked - Too Many Attempts",
+    "description": "Customer's account is locked due to multiple failed login attempts.",
+    "customer": "Chris Evans",
+    "priority": "MEDIUM PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-28"
+  },
+  {
+    "id": 1008,
+    "title": "Shipping Delay - Order Not Received",
+    "description": "Customer has not received their order after 10 business days.",
+    "customer": "Olivia Taylor",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-01-30"
+  },
+  {
+    "id": 1009,
+    "title": "UI Issue - Text Overlapping",
+    "description": "On smaller screens, text in the profile section overlaps with buttons.",
+    "customer": "Daniel Anderson",
+    "priority": "LOW PRIORITY",
+    "status": "In Progress",
+    "createdAt": "2024-02-01"
+  },
+  {
+    "id": 1010,
+    "title": "Password Reset Not Working",
+    "description": "Customer is unable to reset their password as the reset link is expired.",
+    "customer": "Emma Thompson",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "2024-02-03"
+  }
+]
