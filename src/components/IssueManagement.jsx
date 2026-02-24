@@ -8,18 +8,18 @@ import TaskStatusCard from './TaskStatusCard';
 const IssueManagement = ({ fetchPromise }) => {
     const initialData = use(fetchPromise)
     const [mainData, setMainData] = useState(initialData)
-    //this is the selected issues card data by card clicked
+  
     const [selectData, setSelectData] = useState([]);
-    // console.log(selectData)
+ 
     const [removeData, setRemoveData] = useState([])
-    // console.log(removeData)
+
 
     const taskCompleted = (taskD) => {
         const remove = selectData.filter(fT => fT.id !== taskD.id);
         const findRemoveOne = mainData.find(res => res.id === taskD.id)
         setSelectData(remove)
         setRemoveData([...removeData, findRemoveOne])
-        // removed from main data
+    
         const updatedMain = mainData.filter(res => res.id !== taskD.id);
         setMainData(updatedMain);
 

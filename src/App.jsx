@@ -18,7 +18,7 @@ const fetchPromise = fetchData();
 
   return (
     <>
-      {/* Navbar    */}
+  
     <Navbar />
 
      {/* issue management  */}
@@ -26,7 +26,7 @@ const fetchPromise = fetchData();
         <IssueManagement fetchPromise={fetchPromise} />
       </Suspense>
 
-      {/* footer    */}
+
     <Footer />
 
 

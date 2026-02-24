@@ -1,18 +1,18 @@
 import { toast } from 'react-toastify';
 import Container from '../Container';
 import calendarPng from '../assets/ri_calendar-line.png'
-// import { useState } from 'react';
+
 
 
 
 
 const IssueCard = ({ issueData, mainData, selectData, setSelectData }) => {
 
-  // const [isSelected, setSelected] = useState(false);
+
 
 
   const handleClick = (id) => {
-    // if (isSelected) { return; } // stop multiple clicks
+ 
      if (selectData.some(item => item.id === id)) {
     toast.warning(<div className='text-yellow-400'>Already selected!!</div>);
     return;
@@ -21,7 +21,7 @@ const IssueCard = ({ issueData, mainData, selectData, setSelectData }) => {
     const currentData = mainData.filter(res => res.id === id);
     setSelectData([...selectData, ...currentData]);
     toast.success(<div className='text-green-400'>In Progress!!</div>)
-    // setSelected(true);
+   
   }
 
 
